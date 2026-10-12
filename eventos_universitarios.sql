@@ -1,4 +1,3 @@
-
 -- Nombre: Diego Valle Cuevas
 -- Grupo: 952
 -- Fecha: 11/10/2026
@@ -9,8 +8,6 @@
 
 -- Paso 2. Creamos la base de datos. El IF NOT EXISTS es para que no marque error si ya existia
 CREATE DATABASE IF NOT EXISTS eventos_universitarios;
-
--- Le decimos a MySQL que todo lo que sigue se hace dentro de esta base de datos
 USE eventos_universitarios;
 
 
@@ -50,3 +47,4 @@ INSERT INTO eventos (nombre, fecha, hora, lugar, cupo, registrados) VALUES
 
 -- Revisamos que si se hayan guardado
 SELECT * FROM eventos;
+

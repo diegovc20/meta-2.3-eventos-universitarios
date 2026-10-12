@@ -17,7 +17,7 @@ import mysql.connector
 # Aqui se cambia el usuario y la contraseña segun como tengas instalado MySQL en tu computadora.
 HOST = "localhost"
 USUARIO = "root"
-PASSWORD = ""
+PASSWORD = "200706.vC"
 BASE_DATOS = "eventos_universitarios"
 
 # Esta es la consulta base que usan varias funciones. Siempre pedimos las columnas en el mismo orden
